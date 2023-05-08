@@ -1,0 +1,13 @@
+question = "全面建设社会主义现代化国家的前进道路上，必须牢牢把握哪些重大原则？"
+answer = ["坚持和加强党的全面领导","坚持中国特色社会主义道路","坚持以人民为中心的发展思想","坚持深化改革开放","坚持发扬斗争精神。"]
+print(question)
+user_input = []
+for i in range(5):
+    user_input.append(input(f"请填写第{i+1}个空："))
+
+if user_input == answer:
+    print("回答正确！")
+
+else:
+    print("回答错误，正确答案是：")
+    print(answer)
